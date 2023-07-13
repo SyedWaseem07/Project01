@@ -1,0 +1,104 @@
+body {
+    background-image: url(./Background\ image.png);
+    margin: 0;
+    height: 100vh;
+}
+
+
+header {
+
+    padding: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+
+    width: 150px;
+    display: inline-block;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.navbar {
+
+    width: 550px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+
+.navbar > a {
+    margin: 20px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.navbar > a:hover{
+    color: salmon;
+}
+
+#homer {
+    color: salmon;
+}
+
+.heading {
+    color: salmon;
+
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.heading + h3 {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 102px;
+}
+
+.heading + h3 + p {
+    color: white;
+    width: 500px;
+    position: relative;
+    bottom: 50px;
+    left: 104px;
+    word-spacing: 5px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+#btn {
+    width: 140px;
+    padding: 10px;
+    border: none;
+    background-color: salmon;
+    color: rgb(231, 228, 228);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 104px;
+    bottom: 50px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    transition: all 0.5s;
+}
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
